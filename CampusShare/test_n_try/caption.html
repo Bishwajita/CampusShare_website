@@ -1,0 +1,22 @@
+<div id="caption" style="font-size: 24px; font-weight: bold;"></div>
+
+<script>
+  const captions = [
+    "Where Every Campus Story Begins.",
+    "Connect. Collaborate. Campus Style.",
+    "Swap Notes. Share Wisdom. Ace Exams.",
+    "Campus Life, Unfiltered & Unmissable.",
+    "Books, Bikes, and Beyond — All in One Place."
+  ];
+
+  let index = 0;
+  const captionElement = document.getElementById("caption");
+
+  function rotateCaption() {
+    captionElement.textContent = captions[index];
+    index = (index + 1) % captions.length;
+  }
+
+  rotateCaption();
+  setInterval(rotateCaption, 3000);
+</script>

@@ -1,0 +1,135 @@
+/* Reset basic styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Body Styling */
+body {
+    background-color: #f5f7fa;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Header Styling */
+header {
+    background-color: #4CAF50;
+    padding: 20px;
+    text-align: center;
+    color: white;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+/* Navigation Styling */
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 10px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.1rem;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #f9d923;
+}
+
+/* Intro Section */
+#intro {
+    padding: 50px 20px;
+    text-align: center;
+    background-color: #e8f5e9;
+}
+#logo {
+    width: 150px;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+
+#intro h2 {
+    font-size: 2rem;
+    margin-bottom: 15px;
+    color: #2e7d32;
+}
+
+
+#intro p {
+    font-size: 1.1rem;
+    color: #555;
+}
+
+/* Message Section */
+#message {
+    padding: 40px 20px;
+    background-color: #fff3e0;
+    text-align: center;
+}
+
+#message h3 {
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+    color: #ef6c00;
+}
+
+#message p {
+    font-size: 1rem;
+    color: #666;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+/* Categories Section */
+#categories {
+    padding: 40px 20px;
+    text-align: center;
+    background-color: #e3f2fd;
+}
+
+#categories h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #1565c0;
+}
+
+#categories ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+#categories ul li a {
+    background-color: #1976d2;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 8px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+
+#categories ul li a:hover {
+    background-color: #0d47a1;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 30px;
+    font-size: 0.9rem;
+}

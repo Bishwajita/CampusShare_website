@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Upload Item - Thrift Shop</title>
+    <link rel="stylesheet" href="../css/upload.css">
+</head>
+
+<body>
+    <header>
+        <h1 class="upload">Upload Your Item</h1>
+        <nav class="navbar">
+            <ul class="nav-list">
+                <li><a href="index.html" target="_blank">Home</a></li>
+                <li><a href="login.html" target="_blank">Login</a></li>
+                <li><a href="register.html" target="_blank">Register</a></li>
+                <li><a href="upload.html">Upload Item</a></li>
+                <li><a href="contact-us.html" target="_blank">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="upload-item">
+        <form action="#" method="POST" enctype="multipart/form-data">
+            <div class="item">
+                <label for="item-name">Item Name</label>
+                <input type="text" id="item-name" name="item-name" required>
+            </div>
+            <div class="category">
+                <label for="category">Category</label>
+                <select id="category" name="category" required>
+                    <option value="books">Books</option>
+                    <option value="clothes">Clothes</option>
+                    <option value="electronics">Electronics</option>
+                </select>
+            </div>
+            <div class="description">
+                <label for="description">Description</label>
+                <textarea id="description" name="description" rows="4" required></textarea>
+            </div>
+            <div class="price">
+                <label for="price">Price</label>
+                <input type="text" id="price" name="price">
+            </div>
+            <div class="item-image">
+                <label for="item-image">Upload Image</label>
+                <input type="file" id="item-image" name="item-image" accept="image/*">
+            </div>
+            <div class="submit">
+                <button type="submit">Submit Item</button>
+            </div>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 University Thrift Shop</p>
+    </footer>
+</body>
+
+</html>

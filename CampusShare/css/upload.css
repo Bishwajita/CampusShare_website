@@ -1,0 +1,72 @@
+body{
+    background-color: bisque;
+}
+.upload{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.navbar{
+    display: flex;
+    position:sticky;
+    align-items: center;
+    justify-content: center;
+    top: 0px;
+    padding: 10px 20px;
+}
+.nav-list{
+    display: flex;
+    list-style: none;
+}
+.nav-list li {
+    margin-right: 20px;
+}
+nav ul li a {
+    color: rgb(240, 131, 131);
+    text-decoration: none;
+    font-size: 1rem;
+    transition: color 0.3s;
+
+}
+.item{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 27px 27px;
+    padding: 27px 27px;
+}
+.description{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 27px 27px;
+    padding: 27px 27px;
+}
+.category{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 27px 27px;
+    padding: 27px 27px;
+}
+.price{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 27px 27px;
+    padding: 27px 27px;
+}
+.item-image{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 27px 27px;
+    padding: 27px 27px;
+}
+.submit{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 27px 27px;
+    padding: 27px 27px;
+}
